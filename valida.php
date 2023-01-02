@@ -19,7 +19,7 @@ if(isset($_POST["edit"])){  // If the button edit is activated then: send this f
     $text= $_POST['texto'];
     
     ?>
-        <form method="post" action="edit.php"> <!-- This table will be displayed and will send the info to edit.php to udate-->
+        <form method="post" action="index.php"> <!-- This table will be displayed and will send the info to edit.php to udate-->
             <div class=" tablalogin container mt-5"> 
                 <h3><strong>Escribe tu experiencia</strong></h3>
                 <h2><strong>Puesto de trabajo</strong></h2><input class="form-control my-3 bg-grey text-black text-center" type="text" name="titlo" placeholder=" New blog Title">
@@ -33,7 +33,7 @@ if(isset($_POST["edit"])){  // If the button edit is activated then: send this f
 
                 <input type="hidden" name="texto" value="<?php echo $text; ?>"></input>
                 <!-- ------------SEND BUTTON --> 
-                <a href="prueba.php">CLOSE</a>
+                <a href="index.php">CLOSE</a>
             </div>
         </form>
     <?php
