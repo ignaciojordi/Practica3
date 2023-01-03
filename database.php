@@ -1,5 +1,5 @@
 <?php
-
+include 'config.php';
 $server = 'localhost';
 $username = 'root';
 $password = '';
